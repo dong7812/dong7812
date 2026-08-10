@@ -1,6 +1,8 @@
 # Dongkyu Lee
 
-**AI Tooling Engineer** — LLM과 개발자 사이의 레이어를 만듭니다.
+**Building AI infrastructure and the tools developers rely on.**
+
+▎ AI 미들웨어부터 CLI 도구, 오픈소스 기여까지.**Software Engineer** — AI 인프라, 개발자 도구, 오픈소스를 작업합니다.
 
 토큰 오버헤드를 줄이는 미들웨어, AI 결정 이력을 남기는 CLI, 그리고 LLM 파이프라인을 조합 가능하게 만드는 오픈소스 통합을 작업합니다.
 
