@@ -22,7 +22,7 @@
 |---|---|---|
 | **[ESLint](https://github.com/eslint/eslint)** | `fix: prevent ASI hazard in no-unused-labels autofix` 외 PR 4건 | ✅ Merged |
 | **[claude-skills](https://github.com/alirezarezvani/claude-skills)** ⭐24k | collab-proof 스킬 기여 | ✅ Merged |
-| **[LangChain](https://github.com/langchain-ai/langchain)** | `langchain-dompruner` partner package ([#39413](https://github.com/langchain-ai/langchain/issues/39413)) | 🕐 대기 중 |
+| **[langchain-ai/docs](https://github.com/langchain-ai/docs)** | dompruner-py를 [Document Loaders 공식 overview](https://docs.langchain.com/oss/python/integrations/document_loaders)에 등재 ([#5424](https://github.com/langchain-ai/docs/pull/5424)) | ✅ Merged |
 
 ---
 
