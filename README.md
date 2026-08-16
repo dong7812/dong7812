@@ -37,14 +37,6 @@ MCP는 LLM이 직접 호출하는 도구라 fetch까지 책임지고 CSR 페이�
 
 ---
 
-### 스택
-
-`TypeScript` · `Go` · `Python` · `Shell`
-
-MCP · BM25+ · DOM AST · LLM APIs
-
----
-
 ### 관심 분야
 
 - LLM 애플리케이션의 **토큰 효율화** 미들웨어
