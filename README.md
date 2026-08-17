@@ -11,7 +11,7 @@
 | 프로젝트 | 설명 | 배포 |
 |---|---|---|
 | **[dompruner-mcp](https://github.com/dong7812/dompruner-mcp)** | LLM 웹 파이프라인을 위한 DOM AST 미들웨어. WebFetch 대비 93.5% 토큰 절감, 소형 모델 없음 | ![npm](https://img.shields.io/npm/dm/dompruner-mcp?style=flat-square&label=npm&color=cb3837) |
-| **[dompruner-py](https://github.com/dong7812/dompruner-py)** | LangChain 생태계용 Python 포트. `DomPrunerLoader` · `DomPrunerSitemapLoader` · `DomPrunerFetchTool` | ![PyPI](https://img.shields.io/pypi/dm/dompruner?style=flat-square&label=PyPI&color=3775a9) |
+| **[dompruner-py](https://github.com/dong7812/dompruner-py)** | LangChain 생태계용 Python 포트. `DomPrunerLoader` · `DomPrunerSitemapLoader` · `DomPrunerFetchTool` | ![PyPI](https://static.pepy.tech/badge/dompruner/month?style=flat-square&label=PyPI&color=3775a9) |
 | **[huginin-cli](https://github.com/dong7812/huginin-cli)** | AI 세션을 캡처하고 결정 이력을 커밋에 연결하는 CLI | Go |
 | **[collab-proof](https://github.com/dong7812/collab-proof)** | 세션 종료 후 AI vs 개발자 기여도를 기록 — 외부 의존성 없음 | Shell |
 
