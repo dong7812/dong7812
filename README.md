@@ -1,8 +1,16 @@
 # Dongkyu Lee
 
-**문제를 먼저 이해하고, 직접 만들어 검증합니다.**
+**문제를 먼저 이해하고, 직접 만드는 것을 즐깁니다.**
 
-기존 도구를 쓰기 전에 그게 왜 필요한지, 어디서 비효율이 생기는지를 먼저 따집니다. 그 과정에서 없으면 직접 만들고, 만든 것은 실제로 써보며 계속 고칩니다.
+---
+
+### 오픈소스 기여
+
+| 프로젝트 | 기여 내용 | 상태 |
+|---|---|---|
+| **[ESLint](https://github.com/eslint/eslint)** | `fix: prevent ASI hazard in no-unused-labels autofix` 외 PR 4건 | ✅ Merged |
+| **[claude-skills](https://github.com/alirezarezvani/claude-skills)** ⭐24k | collab-proof 스킬 기여 | ✅ Merged |
+| **[langchain-ai/docs](https://github.com/langchain-ai/docs)** | dompruner-py를 [Document Loaders 공식 목록](https://docs.langchain.com/oss/python/integrations/document_loaders)에 등재 ([#5424](https://github.com/langchain-ai/docs/pull/5424)) | ✅ Merged |
 
 ---
 
@@ -27,18 +35,8 @@ MCP는 LLM이 직접 호출하는 도구라 fetch까지 책임지고 CSR 페이�
 
 ---
 
-### 오픈소스 기여
-
-| 프로젝트 | 기여 내용 | 상태 |
-|---|---|---|
-| **[ESLint](https://github.com/eslint/eslint)** | `fix: prevent ASI hazard in no-unused-labels autofix` 외 PR 4건 | ✅ Merged |
-| **[claude-skills](https://github.com/alirezarezvani/claude-skills)** ⭐24k | collab-proof 스킬 기여 | ✅ Merged |
-| **[langchain-ai/docs](https://github.com/langchain-ai/docs)** | dompruner-py를 [Document Loaders 공식 목록](https://docs.langchain.com/oss/python/integrations/document_loaders)에 등재 ([#5424](https://github.com/langchain-ai/docs/pull/5424)) | ✅ Merged |
-
----
-
 ### 관심 분야
 
-- LLM 애플리케이션의 **토큰 효율화** 미들웨어
-- **MCP 생태계** — 도구가 조합 가능한 AI 인프라
-- 개발자 경험(DevEx) — AI 도구를 더 쉽게 쓸 수 있는 구조 설계
+- **LLM 최적화** — LLM이 토큰을 낭비하거나 중간에서 요약되는 점을 발견했습니다. dompruner는 그 불만에서 시작했고, 소형 모델 없이 DOM AST만으로 93.5% 절감했습니다.
+- **불편하면 직접 만들기** — 없는 도구는 직접 만드는 편입니다. AI 협업에서 결정 이력이 사라지는 게 불편해서 huginin-cli를 만들었고, 기여도가 불투명해서 collab-proof를 만들었습니다. 실제 불편한 점을 찾고, 이를 바탕으로 쓰임새 있게 만듭니다.
+- **빠른 실행** — 설계가 되면 빠르게 작업물을 만듭니다. dompruner-mcp → py 포트 → Remote HTTP → LangChain 등재까지, 단순하게 생각만으로 끝내지 않고 빠른 실행으로 진행합니다.
